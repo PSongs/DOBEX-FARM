@@ -8,6 +8,7 @@ import CATFISH from "../assets/india-929719_640.jpg";
 import ICON from "../assets/GOOD ICON.png";
 import TILAPIAFISH from "../assets/tilapia fish.jpg";
 import FEED from "../assets/fish feed.jpg";
+import PRAWN from "../assets/prawns.jpeg";
 
 const OurServices = () => {
   return (
@@ -100,6 +101,32 @@ const OurServices = () => {
             </div>
           </div>
         </div>
+
+
+
+
+        <div className="Our-Con">
+          <div className="Our-Con-Text">
+            <div className="First">
+              <div className="Icon-Box">
+                <img src={ICON} alt=""></img>
+              </div>
+              <h2>PRAWNS PRODUCTION</h2>
+            </div>
+
+            <div className="Second">
+              <h3>
+                At Dobek Farms, we rear baby prawns to table size prawns.
+              </h3>
+            </div>
+          </div>
+
+          <div className="Our-Con-Image">
+            <img src={PRAWN} alt=""></img>
+          </div>
+        </div>
+
+
       </div>
 
       <Footer />

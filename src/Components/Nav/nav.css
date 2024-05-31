@@ -49,6 +49,16 @@
       padding-left: 2rem;
       padding-right: 2rem;
     }
+
+    .active {
+      top: 8.7rem;
+      left: 0;
+      align-items: center;
+      justify-content: center;
+      opacity: 1;
+      z-index: 1;
+      background: #fff;
+    }
   
     /* .menu-icon {
       display: block;
@@ -80,6 +90,8 @@
     .Nav {
       padding-left: 2rem;
       padding-right: 2rem;
+      flex-direction: column;
+      height: auto;
     }
   
     .menu-icon {
@@ -98,7 +110,7 @@
       height: calc(100dvh - 4rem);
     }
     .active {
-      top: 5.5rem;
+      top: 8.7rem;
       left: 0;
       align-items: center;
       justify-content: center;

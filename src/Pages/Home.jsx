@@ -8,6 +8,7 @@ import CATFISH from "../assets/india-929719_640.jpg";
 import TILAPIAFISH from "../assets/tilapia fish.jpg";
 import FISHFEED from "../assets/fish feed.jpg";
 import FEEDING from "../assets/india-929719_640.jpg";
+import PRAWNS from "../assets/prawns.jpeg";
 
 const Home = () => {
   return (
@@ -65,6 +66,13 @@ const Home = () => {
             </div>
             <h3>FISH FEED PRODUCTION</h3>
           </div>
+
+          <div className="BOX">
+            <div className="Image_Holder">
+              <img src={PRAWNS} alt=""></img>
+            </div>
+            <h3>PRAWNS PRODUCTION</h3>
+          </div>
         </div>
       </div>
 
@@ -72,7 +80,7 @@ const Home = () => {
         <div className="Hero-Three-Text">
           <h1>OUR AIM</h1>
           <h3>
-            Dobek farms limited aims to export catfish and tilapia to other
+            Dobek farms limited aims to export catfish, tilapia and prawns to other
             countries when it has produced enough catfish to satisfy the
             Nigerian market
           </h3>
@@ -94,17 +102,23 @@ const Home = () => {
           <div className="From-Fish">
             <h2>
               From Fish Feed Production To Fish <br></br>Rearing, We Do It All.
+              <br></br>
+              <br></br>
+            
+              <Link className="KnowBtn" to="/about">
+                <button>KNOW MORE</button>
+              </Link>
             </h2>
           </div>
+          {/* <br></br>
           <br></br>
-          <br></br>
-          <br></br>
+          <br></br> */}
 
-          <div className="Know_More">
+          {/* <div className="Know_More">
             <Link className="KnowBtn" to="/about">
               <button>KNOW MORE</button>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
 

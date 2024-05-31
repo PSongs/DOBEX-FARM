@@ -49,8 +49,8 @@ const AboutUs = () => {
             Dobek Farms Ltd is a fish farm that produces catfish at a lower
             price in the market place. It produces fish at a lower price by
             replacing fish meal with maggot meal in production of feed. The
-            primary purpose of Dobek Farms Ltd is to produce catfish at first
-            and tilapia later at a low price so it is affordable to low income
+            primary purpose of Dobek Farms Ltd is to produce catfish at first,
+            tilapia and prawns later at a low price so it is affordable to low income
             earners in Nigeria. It targets production of up to two hundred tons
             of fish per year for the first five years and to increase this
             quantity continuously until it is the dominant fish producer of
@@ -69,13 +69,13 @@ const AboutUs = () => {
             <div className="Main-Content">
               <h1>MISSION STATEMENT</h1>
               <h3>
-                To produce fresh and frozen catfish and tilapia at a low price
+                To produce fresh and frozen catfish, tilapia and prawns at a low price
                 in the market place in Nigeria.
               </h3>
 
               <h1>VISION STATEMENT</h1>
               <h3>
-                To be the leading catfish and tilapia producers in the Nigerian
+                To be the leading catfish, tilapia and prawns producers in the Nigerian
                 market within five years.
               </h3>
             </div>

@@ -209,3 +209,280 @@ A{
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
+
+
+/* MEDIA QUERY FOR MAX-WIDTH 480PX /////////////////////////////////////////////////////////////////////////// */
+@media (max-width: 480px) {
+    .About-Hero-One {
+        height: 15rem;
+        width: 100%; 
+    }
+
+    .About-Hero-One-Container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        padding-top: 8rem;
+    }
+
+    .Text-Holder {
+        flex-direction: column;
+    }
+
+    .ABOUT-LINK {
+        width: 100%;
+    }
+
+    .ABOUT-LINK h1{
+        font-size: 20px;
+    }
+
+    .AboutBtn{
+        display: none;
+    }
+
+    .Link-Holder {
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .About-Hero-Two {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .About-Hero-Two-Text {
+        width: 50%;
+        padding: 3rem;
+    }
+
+    .About-Hero-Two-Image {
+        width: 50%;
+        padding: 3rem;
+        border: 1px solid black;
+    }
+
+    .About-Hero-Two-Image h3{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .About-Hero-Three {
+        height: auto;
+    }
+
+    .About-Hero-Three-Content {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .Content-Box {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .Main-Content {
+        padding: 1rem;
+    }
+}
+
+
+
+/* MEDIA QUERY FOR MIN-WIDTH 481PX AND MAX-WIDTH 767PX///////////////////////////////////////////////////////////// */
+@media (min-width: 481px) and (max-width: 767px) {
+    .About-Hero-One {
+        height: 15rem;
+    }
+
+    .About-Hero-One-Container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 7rem;
+    }
+
+    .Text-Holder {
+        flex-direction: column;
+    }
+
+    .ABOUT-LINK {
+        width: 80%;
+    }
+
+    .Link-Holder {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .About-Hero-Two {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .About-Hero-Two-Text, .About-Hero-Two-Image {
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .About-Hero-Two-Image {
+        padding-top: 2rem;
+        padding-right: 2rem;
+    }
+
+    .About-Hero-Three {
+        height: 30rem;
+    }
+
+    .About-Hero-Three-Content {
+        justify-content: center;
+        align-content: center;
+    }
+
+    .Content-Box {
+        width: 90%;
+    }
+
+    .Main-Content h1, .Main-Content h3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+/* MEDIA QUERY FOR MIN-WIDTH 768PX AND MAX-WIDTH 1024PX/////////////////////////////////////////////////////////// */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .About-Hero-One {
+        width: 100vw;
+        height: 25rem;
+    }
+
+    .About-Hero-One-Container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 9rem;
+    }
+
+    .Link-Holder {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .About-Hero-Two {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .About-Hero-Two-Text {
+        width: 100%;
+        padding: 4rem;
+    }
+
+    .About-Hero-Two-Image {
+        width: 100%;
+        padding-top: 4rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .About-Hero-Three {
+        height: 35rem;
+    }
+
+    .About-Hero-Three-Content {
+        padding: 2rem;
+    }
+
+    .Content-Box {
+        width: 80%;
+        padding: 2rem;
+    }
+
+    .Main-Content {
+        padding: 1rem;
+    }
+}
+
+
+
+/* MEDIA QUERY FOR MIN-WIDTH 1025PX AND MAX-WIDTH 1280PX ////////////////////////////////////////////////////// */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .About-Hero-One {
+        height: 18rem; /* Slightly reduce height */
+        padding-left: 1rem; /* Add padding for spacing */
+        padding-right: 1rem;
+        width: 100vw;
+        padding-top: 11rem;
+    }
+
+    .About-Hero-One-Container {
+        padding-left: 5rem; /* Reduce padding */
+        padding-right: 5rem;
+        padding-top: 9rem; /* Adjust top padding */
+    }
+
+    .Text-Holder {
+        width: 90%; /* Adjust width */
+    }
+
+    .ABOUT-LINK {
+        width: 60%; /* Adjust width */
+    }
+
+    .Link-Holder {
+        padding-left: 8rem; /* Reduce padding */
+        padding-right: 8rem;
+    }
+
+    .About-Hero-Two {
+        height: 28rem; /* Adjust height */
+    }
+
+    .About-Hero-Two-Text {
+        padding: 4rem; /* Adjust padding */
+    }
+
+    .About-Hero-Two-Image {
+        padding-top: 4rem; /* Adjust padding */
+        padding-right: 8rem;
+    }
+
+    .About-Hero-Three {
+        height: 40rem; /* Adjust height */
+    }
+
+    .About-Hero-Three-Content {
+        padding: 3rem; /* Adjust padding */
+    }
+
+    .Content-Box {
+        width: 60%; /* Adjust width */
+        padding: 3rem; /* Adjust padding */
+    }
+
+    .Main-Content {
+        padding: 1rem; /* Adjust padding */
+    }
+
+    .Main-Content h1 {
+        font-size: 2rem; /* Adjust font size */
+    }
+
+    .Main-Content h3 {
+        font-size: 1.5rem; /* Adjust font size */
+    }
+}
+
+
+
+
+
+

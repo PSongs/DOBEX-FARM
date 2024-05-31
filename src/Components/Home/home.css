@@ -1,6 +1,6 @@
 .Hero-One{
     width: 100vw;;
-    height: 100vh;
+    height: 80vh;
     /* border: 1px solid red; */
     /* margin-top: 3.6rem; */
     background-color: black;
@@ -133,7 +133,7 @@
 }
 
 .BOX{
-    width: 30%;
+    width: 23%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -256,6 +256,7 @@
     height: 100%;
     padding-left: 35rem;
     padding-right: 35rem;
+    align-items: center;
 }
 
 .KnowBtn button{
@@ -280,7 +281,7 @@
 @media (max-width: 480px) {
     .Hero-One {
         width: 100vw;
-        height: 100vh;
+        height: 60vh;
         background-color: black;
         display: flex;
         background-position: center;
@@ -311,7 +312,7 @@
         flex-direction: column;
         padding-left: 1rem;
         padding-right: 1rem;
-        padding-top: 2rem;
+        padding-top: 5rem;
     }
 
     .Hero-One-Content {
@@ -435,6 +436,7 @@
         display: flex;
         flex-direction: column;
         padding: 1rem;
+        align-items: center;
     }
 
     .Hero-Three-Text h1, .Hero-Three-Text h3 {
@@ -494,6 +496,7 @@
         height: auto;
         padding-left: 2rem;
         padding-right: 2rem;
+        align-items: center;
     }
 
     .KnowBtn button {
@@ -514,7 +517,7 @@
 /* MEDIA QUERY FOR MIN WIDTH 481PX AND MAX-WIDTH 767PX ///////////////////////////////////////////////// */
 @media (min-width: 481px) and (max-width: 767px) {
     .Hero-One {
-        height: auto;
+        height: 60vh;
         padding: 2rem;
     }
 
@@ -578,6 +581,10 @@
         padding: 2rem;
     }
 
+    .Hero-Three-Text{
+        align-items: center;
+    }
+
     .Hero-Four {
         padding-top: 2rem;
         padding-bottom: 2rem;
@@ -586,6 +593,7 @@
     .Know_More {
         padding-left: 1rem;
         padding-right: 1rem;
+        align-items: center;
     }
 
     .KnowBtn button {
@@ -601,7 +609,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     .Hero-One {
         /* Adjustments for this range */
-        height: 80vh; /* Example adjustment */
+        height: 60vh; /* Example adjustment */
     }
 
     .Hero-One-Container {
@@ -664,6 +672,7 @@
 
     .Hero-Three-Text {
         padding: 3rem;
+        align-items: center;
     }
 
     .Hero-Four {
@@ -674,6 +683,7 @@
     .Know_More {
         padding-left: 10rem;
         padding-right: 10rem;
+        align-items: center;
     }
 
     .KnowBtn button {
@@ -688,7 +698,7 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
     .Hero-One {
         width: 100vw;
-        height: 100vh;
+        height: 60vh;
         background-color: black;
         display: flex;
         background-position: center;
@@ -811,7 +821,7 @@
     }
 
     .BOX {
-        width: 30%;
+        width: 23%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -854,6 +864,7 @@
         display: flex;
         flex-direction: column;
         padding: 6rem;
+        align-items: center;
     }
 
     .Hero-Three-Text h1 {
@@ -1062,7 +1073,7 @@
     }
 
     .BOX {
-        width: 30%;
+        width: 23%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -1189,7 +1200,7 @@
 @media (min-width: 1441px) and (max-width: 1920px) {
     .Hero-One {
         width: 100vw;
-        height: 100vh;
+        height: 90vh;
         background-color: black;
         display: flex;
         background-position: center;
@@ -1311,7 +1322,7 @@
     }
 
     .BOX {
-        width: 30%;
+        width: 23%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -1441,7 +1452,7 @@
 @media (min-width: 1441px) and (max-width: 1920px) {
     .Hero-One {
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
         background-color: black;
         display: flex;
         background-position: center;
@@ -1563,7 +1574,7 @@
     }
 
     .BOX {
-        width: 30%;
+        width: 23%;
         height: 100%;
         display: flex;
         flex-direction: column;
