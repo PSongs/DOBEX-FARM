@@ -1,0 +1,1668 @@
+.Hero-One{
+    width: 100vw;;
+    height: 100vh;
+    /* border: 1px solid red; */
+    /* margin-top: 3.6rem; */
+    background-color: black;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    position: relative;
+    z-index: -2000;
+    overflow: hidden;
+}
+
+.Home{
+    position: relative;
+    z-index: 100;
+}
+
+.Hero-One img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+    opacity: 45%;
+}
+
+.Hero-One-Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 11rem;
+    /* border: 2px solid red; */
+}
+
+.Hero-One-Content{
+     /* border: 3px solid white; */
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+     padding-left: 4rem;
+     padding-right: 4rem;
+     padding-top: 5rem;
+}
+
+.Hero-One-Text{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10000000000;
+}
+
+.Hero-One-Content p{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.Hero-One-Content h3{
+    text-align: center;
+    font-weight: 500;
+    line-height: 55px;
+    margin-top: 1rem;
+}
+
+.AboutBtn button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #020535;
+    border: none;
+}
+
+.AboutBtn button:hover{
+    background-color: #040a5f;
+}
+
+
+
+.Hero-Two{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.Hero-Two h3{
+    font-weight: 400;
+    width: 100%;
+    height: auto;
+    color: #020535;
+    text-align:center;
+}
+
+.Hero-Two h1{
+    font-weight: 600;
+    width: 100%;
+    height: auto;
+    color: #020535;
+    text-align:center;
+}
+
+.Service-Content{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.BOX{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.BOX:hover{
+    
+}
+
+.Image_Holder{
+    width: 100%;
+    height: 17rem;
+    /* border: 1px solid black; */
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.Image_Holder img{
+    width: 100%;
+    height: 100%;
+}
+
+.BOX h3{
+    margin-top: 1.5rem;
+    color: #020535;
+    font-weight: 600;
+}
+
+
+
+
+.Hero-Three{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(234, 234, 248);
+}
+
+.Hero-Three-Text{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+}
+
+.Hero-Three-Text h1{
+    color: #020535;
+    font-weight: 600;
+}
+
+.Hero-Three-Text h3{
+    color: #020535;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.Hero-Three-Image{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;   
+}
+
+.Hero-Three-Image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.Hero-Four{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 30rem;
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.Hero-Four-IMG{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    background-image: url(/src/assets/BLUE\ SHADOW.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;  
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.From-Fish{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    padding-top: 5rem;
+}
+
+.Hero-Four-IMG h2{
+    font-size: 50px;
+    text-align: center;
+    line-height: 55px;
+}
+
+.Know_More{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    padding-left: 35rem;
+    padding-right: 35rem;
+}
+
+.KnowBtn button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #020535;
+    border: none;
+}
+
+.KnowBtn button:hover{
+    background-color: #040a5f;
+}
+
+
+
+
+
+
+/* MEMDIA QUERY FOR MAX-WIDTH 480PX ///////////////////////////////////////////////////////////////// */
+@media (max-width: 480px) {
+    .Hero-One {
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        position: relative;
+        z-index: -2000;
+        overflow: hidden;
+    }
+
+    .Home {
+        position: relative;
+        z-index: 100;
+    }
+
+    .Hero-One img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1000;
+        opacity: 45%;
+    }
+
+    .Hero-One-Container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    }
+
+    .Hero-One-Content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    }
+
+    .Hero-One-Text {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 10000000000;
+    }
+
+    .Hero-One-Content p {
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .Hero-One-Content h3 {
+        text-align: center;
+        font-weight: 500;
+        line-height: 30px;
+        margin-top: 0.5rem;
+    }
+
+    .AboutBtn button {
+        width: 8rem;
+        height: 2.5rem;
+        background-color: #020535;
+        border: none;
+    }
+
+    .AboutBtn button:hover {
+        background-color: #040a5f;
+    }
+
+    .Hero-Two {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        overflow: hidden;
+    }
+
+    .Hero-Two h3, .Hero-Two h1 {
+        font-weight: 400;
+        width: 100%;
+        height: auto;
+        color: #020535;
+        text-align: center;
+    }
+
+    .Service-Content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+
+    .BOX {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .Image_Holder {
+        width: 100%;
+        height: auto;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .Image_Holder img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .BOX h3 {
+        margin-top: 1rem;
+        color: #020535;
+        font-weight: 600;
+    }
+
+    .Hero-Three {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(234, 234, 248);
+    }
+
+    .Hero-Three-Text {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .Hero-Three-Text h1, .Hero-Three-Text h3 {
+        color: #020535;
+        text-align: center;
+    }
+
+    .Hero-Three-Image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .Hero-Three-Image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Hero-Four {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .Hero-Four-IMG {
+        width: 100%;
+        height: auto;
+        background-image: url(/src/assets/BLUE\ SHADOW.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .From-Fish {
+        width: 100%;
+        height: auto;
+        padding-top: 2rem;
+    }
+
+    .Hero-Four-IMG h2 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .Know_More {
+        width: 100%;
+        height: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .KnowBtn button {
+        width: 8rem;
+        height: 2.5rem;
+        background-color: #020535;
+        border: none;
+    }
+
+    .KnowBtn button:hover {
+        background-color: #040a5f;
+    }
+}
+
+
+
+
+/* MEDIA QUERY FOR MIN WIDTH 481PX AND MAX-WIDTH 767PX ///////////////////////////////////////////////// */
+@media (min-width: 481px) and (max-width: 767px) {
+    .Hero-One {
+        height: auto;
+        padding: 2rem;
+    }
+
+    .Hero-One-Container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 5rem;
+    }
+
+    .Hero-One-Content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    }
+
+    .Hero-One-Text {
+        width: 90%;
+        height: auto;
+    }
+
+    .Hero-One-Content p {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .Hero-One-Content h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .AboutBtn button {
+        width: 8rem;
+        height: 2.5rem;
+    }
+
+    .Hero-Two {
+        padding: 1rem;
+    }
+
+    .Service-Content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .BOX {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .Hero-Three {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Hero-Three-Text,
+    .Hero-Three-Image {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .Hero-Four {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .Know_More {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .KnowBtn button {
+        width: 8rem;
+        height: 2.5rem;
+    }
+}
+
+
+
+
+/* MEDIA QUERY FOR MIN-WIDTH 768PX AND MAX-WIDTH 1024PX ///////////////////////////////////////////////// */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .Hero-One {
+        /* Adjustments for this range */
+        height: 80vh; /* Example adjustment */
+    }
+
+    .Hero-One-Container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 8rem;
+    }
+
+    .Hero-One-Content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 4rem;
+    }
+
+    .Hero-One-Text {
+        width: 90%;
+    }
+
+    .Hero-One-Content p {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .Hero-One-Content h3 {
+        line-height: 50px;
+        margin-top: 0.5rem;
+    }
+
+    .AboutBtn button {
+        width: 8rem;
+        height: 2.5rem;
+    }
+
+    .Hero-Two {
+        padding: 1.5rem;
+    }
+
+    .Service-Content {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .BOX {
+        width: 90%;
+    }
+
+    .Hero-Three {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Hero-Three-Text,
+    .Hero-Three-Image {
+        width: 100%;
+    }
+
+    .Hero-Three-Text {
+        padding: 3rem;
+    }
+
+    .Hero-Four {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .Know_More {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .KnowBtn button {
+        width: 8rem;
+        height: 2.5rem;
+    }
+}
+
+
+
+/* MEDIA QUERY FOR MIN-WIDTH 1025PX MAX-WIDTH 1280PX //////////////////////////////////////////////////// */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .Hero-One {
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        position: relative;
+        z-index: -2000;
+        overflow: hidden;
+    }
+
+    .Home {
+        position: relative;
+        z-index: 100;
+    }
+
+    .Hero-One img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1000;
+        opacity: 45%;
+    }
+
+    .Hero-One-Container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: center;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        padding-top: 11rem;
+    }
+
+    .Hero-One-Content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 5rem;
+    }
+
+    .Hero-One-Text {
+        width: 80%;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 10000000000;
+    }
+
+    .Hero-One-Content p {
+        font-size: 60px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 55px;
+    }
+
+    .Hero-One-Content h3 {
+        text-align: center;
+        font-weight: 500;
+        line-height: 55px;
+        margin-top: 1rem;
+    }
+
+    .AboutBtn button {
+        width: 10rem;
+        height: 3rem;
+        background-color: #020535;
+        border: none;
+    }
+
+    .AboutBtn button:hover {
+        background-color: #040a5f;
+    }
+
+    .Hero-Two {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    .Hero-Two h3 {
+        font-weight: 400;
+        width: 100%;
+        height: auto;
+        color: #020535;
+        text-align: center;
+    }
+
+    .Hero-Two h1 {
+        font-weight: 600;
+        width: 100%;
+        height: auto;
+        color: #020535;
+        text-align: center;
+    }
+
+    .Service-Content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+
+    .BOX {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BOX:hover {
+    }
+
+    .Image_Holder {
+        width: 100%;
+        height: 17rem;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .Image_Holder img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .BOX h3 {
+        margin-top: 1.5rem;
+        color: #020535;
+        font-weight: 600;
+    }
+
+    .Hero-Three {
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(234, 234, 248);
+    }
+
+    .Hero-Three-Text {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 6rem;
+    }
+
+    .Hero-Three-Text h1 {
+        color: #020535;
+        font-weight: 600;
+    }
+
+    .Hero-Three-Text h3 {
+        color: #020535;
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+
+    .Hero-Three-Image {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .Hero-Three-Image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Hero-Four {
+        width: 100%;
+        height: 30rem;
+        background-color: white;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .Hero-Four-IMG {
+        width: 100%;
+        height: 100%;
+        background-image: url(/src/assets/BLUE\ SHADOW.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .From-Fish {
+        width: 100%;
+        height: auto;
+        padding-top: 5rem;
+    }
+
+    .Hero-Four-IMG h2 {
+        font-size: 50px;
+        text-align: center;
+        line-height: 55px;
+    }
+
+    .Know_More {
+        width: 100%;
+        height: 100%;
+        padding-left: 35rem;
+        padding-right: 35rem;
+    }
+
+    .KnowBtn button {
+        width: 10rem;
+        height: 3rem;
+        background-color: #020535;
+        border: none;
+    }
+
+    .KnowBtn button:hover {
+        background-color: #040a5f;
+    }
+}
+
+
+
+/* MEDIA QUERY FOR MIN-WIDTH 1281PX AND MAX-WIDTH 1440PX /////////////////////////////////////////////////////////// */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .Hero-One {
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        position: relative;
+        z-index: -2000;
+        overflow: hidden;
+    }
+
+    .Home {
+        position: relative;
+        z-index: 100;
+    }
+
+    .Hero-One img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1000;
+        opacity: 45%;
+    }
+
+    .Hero-One-Container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: center;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        padding-top: 11rem;
+    }
+
+    .Hero-One-Content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 5rem;
+    }
+
+    .Hero-One-Text {
+        width: 80%;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 10000000000;
+    }
+
+    .Hero-One-Content p {
+        font-size: 60px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 55px;
+    }
+
+    .Hero-One-Content h3 {
+        text-align: center;
+        font-weight: 500;
+        line-height: 55px;
+        margin-top: 1rem;
+    }
+
+    .AboutBtn button {
+        width: 10rem;
+        height: 3rem;
+        background-color: #020535;
+        border: none;
+    }
+
+    .AboutBtn button:hover {
+        background-color: #040a5f;
+    }
+
+    .Hero-Two {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    .Hero-Two h3 {
+        font-weight: 400;
+        width: 100%;
+        height: auto;
+        color: #020535;
+        text-align: center;
+    }
+
+    .Hero-Two h1 {
+        font-weight: 600;
+        width: 100%;
+        height: auto;
+        color: #020535;
+        text-align: center;
+    }
+
+    .Service-Content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+
+    .BOX {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Image_Holder {
+        width: 100%;
+        height: 17rem;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .Image_Holder img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .BOX h3 {
+        margin-top: 1.5rem;
+        color: #020535;
+        font-weight: 600;
+    }
+
+    .Hero-Three {
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(234, 234, 248);
+    }
+
+    .Hero-Three-Text {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 6rem;
+    }
+
+    .Hero-Three-Text h1 {
+        color: #020535;
+        font-weight: 600;
+    }
+
+    .Hero-Three-Text h3 {
+        color: #020535;
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+
+    .Hero-Three-Image {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .Hero-Three-Image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Hero-Four {
+        width: 100%;
+        height: 30rem;
+        background-color: white;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .Hero-Four-IMG {
+        width: 100%;
+        height: 100%;
+        background-image: url(/src/assets/BLUE\ SHADOW.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .From-Fish {
+        width: 100%;
+        height: auto;
+        padding-top: 5rem;
+    }
+
+    .Hero-Four-IMG h2 {
+        font-size: 50px;
+        text-align: center;
+        line-height: 55px;
+    }
+
+    .Know_More {
+        width: 100%;
+        height: 100%;
+        padding-left: 35rem;
+        padding-right: 35rem;
+    }
+
+    .KnowBtn button {
+        width: 10rem;
+        height: 3rem;
+        background-color: #020535;
+        border: none;
+    }
+
+    .KnowBtn button:hover {
+        background-color: #040a5f;
+    }
+}
+
+
+
+
+
+/* MEDIA QUERY MIN-WIDTH 1441PX AND MAX-WIDTH 1920PX //////////////////////////////////////////////////// */
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .Hero-One {
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        position: relative;
+        z-index: -2000;
+        overflow: hidden;
+    }
+
+    .Home {
+        position: relative;
+        z-index: 100;
+    }
+
+    .Hero-One img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1000;
+        opacity: 45%;
+    }
+
+    .Hero-One-Container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: center;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        padding-top: 11rem;
+    }
+
+    .Hero-One-Content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 5rem;
+    }
+
+    .Hero-One-Text {
+        width: 80%;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 10000000000;
+    }
+
+    .Hero-One-Content p {
+        font-size: 60px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 55px;
+    }
+
+    .Hero-One-Content h3 {
+        text-align: center;
+        font-weight: 500;
+        line-height: 55px;
+        margin-top: 1rem;
+    }
+
+    .AboutBtn button {
+        width: 10rem;
+        height: 3rem;
+        background-color: #020535;
+        border: none;
+    }
+
+    .AboutBtn button:hover {
+        background-color: #040a5f;
+    }
+
+    .Hero-Two {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    .Hero-Two h3 {
+        font-weight: 400;
+        width: 100%;
+        height: auto;
+        color: #020535;
+        text-align: center;
+    }
+
+    .Hero-Two h1 {
+        font-weight: 600;
+        width: 100%;
+        height: auto;
+        color: #020535;
+        text-align: center;
+    }
+
+    .Service-Content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+
+    .BOX {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BOX:hover {
+    }
+
+    .Image_Holder {
+        width: 100%;
+        height: 17rem;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .Image_Holder img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .BOX h3 {
+        margin-top: 1.5rem;
+        color: #020535;
+        font-weight: 600;
+    }
+
+    .Hero-Three {
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(234, 234, 248);
+    }
+
+    .Hero-Three-Text {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 6rem;
+    }
+
+    .Hero-Three-Text h1 {
+        color: #020535;
+        font-weight: 600;
+    }
+
+    .Hero-Three-Text h3 {
+        color: #020535;
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+
+    .Hero-Three-Image {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .Hero-Three-Image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Hero-Four {
+        width: 100%;
+        height: 30rem;
+        background-color: white;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .Hero-Four-IMG {
+        width: 100%;
+        height: 100%;
+        background-image: url(/src/assets/BLUE\ SHADOW.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .From-Fish {
+        width: 100%;
+        height: auto;
+        padding-top: 5rem;
+    }
+
+    .Hero-Four-IMG h2 {
+        font-size: 50px;
+        text-align: center;
+        line-height: 55px;
+    }
+
+    .Know_More {
+        width: 100%;
+        height: 100%;
+        padding-left: 35rem;
+        padding-right: 35rem;
+    }
+
+    .KnowBtn button {
+        width: 10rem;
+        height: 3rem;
+        background-color: #020535;
+        border: none;
+    }
+
+    .KnowBtn button:hover {
+        background-color: #040a5f;
+    }
+}
+
+
+
+
+
+/* MEDIA QUERY MIN-WIDTH 1441PX AND MAX-WIDTH 1920PX ////////////////////////////////////////////////////////////// */
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .Hero-One {
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        position: relative;
+        z-index: -2000;
+        overflow: hidden;
+    }
+
+    .Home {
+        position: relative;
+        z-index: 100;
+    }
+
+    .Hero-One img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1000;
+        opacity: 45%;
+    }
+
+    .Hero-One-Container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: center;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        padding-top: 11rem;
+    }
+
+    .Hero-One-Content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 5rem;
+    }
+
+    .Hero-One-Text {
+        width: 80%;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 10000000000;
+    }
+
+    .Hero-One-Content p {
+        font-size: 60px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 55px;
+    }
+
+    .Hero-One-Content h3 {
+        text-align: center;
+        font-weight: 500;
+        line-height: 55px;
+        margin-top: 1rem;
+    }
+
+    .AboutBtn button {
+        width: 10rem;
+        height: 3rem;
+        background-color: #020535;
+        border: none;
+    }
+
+    .AboutBtn button:hover {
+        background-color: #040a5f;
+    }
+
+    .Hero-Two {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    .Hero-Two h3 {
+        font-weight: 400;
+        width: 100%;
+        height: auto;
+        color: #020535;
+        text-align: center;
+    }
+
+    .Hero-Two h1 {
+        font-weight: 600;
+        width: 100%;
+        height: auto;
+        color: #020535;
+        text-align: center;
+    }
+
+    .Service-Content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+
+    .BOX {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BOX:hover {
+    }
+
+    .Image_Holder {
+        width: 100%;
+        height: 17rem;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .Image_Holder img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .BOX h3 {
+        margin-top: 1.5rem;
+        color: #020535;
+        font-weight: 600;
+    }
+
+    .Hero-Three {
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(234, 234, 248);
+    }
+
+    .Hero-Three-Text {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 6rem;
+    }
+
+    .Hero-Three-Text h1 {
+        color: #020535;
+        font-weight: 600;
+    }
+
+    .Hero-Three-Text h3 {
+        color: #020535;
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+
+    .Hero-Three-Image {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+    }
+
+    .Hero-Three-Image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Hero-Four {
+        width: 100%;
+        height: 30rem;
+        background-color: white;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .Hero-Four-IMG {
+        width: 100%;
+        height: 100%;
+        background-image: url(/src/assets/BLUE\ SHADOW.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .From-Fish {
+        width: 100%;
+        height: auto;
+        padding-top: 5rem;
+    }
+
+    .Hero-Four-IMG h2 {
+        font-size: 50px;
+        text-align: center;
+        line-height: 55px;
+    }
+
+    .Know_More {
+        width: 100%;
+        height: 100%;
+        padding-left: 35rem;
+        padding-right: 35rem;
+    }
+
+    .KnowBtn button {
+        width: 10rem;
+        height: 3rem;
+        background-color: #020535;
+        border: none;
+    }
+
+    .KnowBtn button:hover {
+        background-color: #040a5f;
+    }
+}
+
+
+
+
+
+

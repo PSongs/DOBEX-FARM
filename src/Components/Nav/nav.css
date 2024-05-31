@@ -1,0 +1,110 @@
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    /* background-image: linear-gradient(to right, rgb(255, 255, 255), #b9e9fc); */
+    background-color: white;
+    opacity: 90%;
+    color: #020535;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .NavLogo {
+    scale: 80%;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  .Navul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .Navul li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Navul li .Nav-hover {
+    text-decoration: none;
+    color: #020535;
+  }
+  
+  .Navul li .Nav-hover:hover {
+    color: #0099d7;
+  }
+  
+  /* MEDIA QUERIES SCREEEN FOR MIN-WIDTH 768PX MAX-WIDTH 1023PX/////////////////////////////////////////////////////////////////// */
+  @media screen and (min-width: 768px) and (max-width: 1025px) {
+    .Nav {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  
+    /* .menu-icon {
+      display: block;
+    }
+  
+    .Navul {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 4rem;
+      left: -100%;
+      opacity: 1;
+      transition: left 0.4s ease;
+      height: calc(100dvh - 4rem);
+    }
+    .active {
+      top: 4rem;
+      left: 0;
+      align-items: center;
+      justify-content: center;
+      opacity: 1;
+      z-index: 1;
+      background: #fff;
+    } */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Nav {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .Navul {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 4rem;
+      left: -100%;
+      opacity: 1;
+      transition: left 0.4s ease;
+      height: calc(100dvh - 4rem);
+    }
+    .active {
+      top: 5.5rem;
+      left: 0;
+      align-items: center;
+      justify-content: center;
+      opacity: 1;
+      z-index: 1;
+      background: #fff;
+    }
+  }
+  

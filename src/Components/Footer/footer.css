@@ -1,0 +1,26 @@
+.Footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 20rem;
+    background-color: #020535;
+    padding: 6rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer h2{
+    font-weight: 600;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.Footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.Footer a:hover{
+    color: #5cc9f5;
+}
