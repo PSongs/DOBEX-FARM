@@ -14,9 +14,8 @@ const ContactUs = () => {
         <img src={BlueImage} alt=""></img>
         <div className="Contact-Hero-One-Container">
           <div className="Text-Holder">
-            <div className="ABOUT-LINK">
-              <h1>CONTACT</h1>
-              <br></br>
+          <div className="ABOUT-LINK">
+              <h1>CONTACT<br></br>
 
               <div className="Link-Holder">
                 <Link className="H" to="/">
@@ -25,6 +24,7 @@ const ContactUs = () => {
                 <div className="DASH"></div>
                 <Link className="A">Contact</Link>
               </div>
+              </h1> 
             </div>
           </div>
         </div>

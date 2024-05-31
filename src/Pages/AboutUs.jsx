@@ -16,8 +16,7 @@ const AboutUs = () => {
         <div className="About-Hero-One-Container">
           <div className="Text-Holder">
             <div className="ABOUT-LINK">
-              <h1>ABOUT US</h1>
-              <br></br>
+              <h1>ABOUT US <br></br>
 
               <div className="Link-Holder">
                 <Link className="H" to="/">
@@ -26,6 +25,7 @@ const AboutUs = () => {
                 <div className="DASH"></div>
                 <Link className="A">About</Link>
               </div>
+              </h1> 
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ const AboutUs = () => {
           <br></br>
           <br></br>
 
-          <Link className="AboutBtn" to="/contact">
+          <Link className="AboutB" to="/contact">
             <button>CONTACT US</button>
           </Link>
         </div>

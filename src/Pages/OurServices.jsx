@@ -19,17 +19,17 @@ const OurServices = () => {
         <img src={BlueImage} alt=""></img>
         <div className="Our-Hero-One-Container">
           <div className="Text-Holder">
-            <div className="ABOUT-LINK">
-              <h1>OUR SERVICES</h1>
-              <br></br>
+          <div className="ABOUT-LINK">
+              <h1>OUR SERVICE <br></br>
 
               <div className="Link-Holder">
                 <Link className="H" to="/">
                   Home
                 </Link>
                 <div className="DASH"></div>
-                <Link className="A">Services</Link>
+                <Link className="A">Service</Link>
               </div>
+              </h1> 
             </div>
           </div>
         </div>
