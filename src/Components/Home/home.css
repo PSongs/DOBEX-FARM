@@ -82,6 +82,8 @@
     height: 3rem;
     background-color: #020535;
     border: none;
+    color: white;
+    font-size: 13px;
 }
 
 .AboutBtn button:hover{
@@ -261,6 +263,8 @@
     height: 3rem;
     background-color: #020535;
     border: none;
+    color: white;
+    font-size: 13px;
 }
 
 .KnowBtn button:hover{
