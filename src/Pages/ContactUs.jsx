@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 import "../Components/ContactUs/contactus.css";
 import BlueImage from "../assets/BLUE IMAGE WATER.jpeg";
 
+
+
 const ContactUs = () => {
+  const handleWhatsAppChat = () => {
+    window.open("https://wa.me//2347035543255", "_blank");
+  };
+
   return (
     <div className="Home">
       <Nav />
@@ -42,6 +48,13 @@ const ContactUs = () => {
             <h4>07035543255</h4>
             <h4>08126085126</h4>
             <h4>08136950374</h4>
+            <br></br>
+
+            <button id="WhatsAPP" onClick={handleWhatsAppChat}>
+              <h3>
+                  Chat Us
+              </h3>
+          </button>
           </div>
 
           <div className="Con">

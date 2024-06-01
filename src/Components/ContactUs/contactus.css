@@ -104,7 +104,7 @@ A{
 .Contact-Hero-Three{
     /* border: 1px solid red; */
     width: 100%;
-    height: 50vh;
+    height: 100%;
     background-color: white;
 }
 
@@ -137,3 +137,417 @@ A{
     color: #020535;
     font-weight: 400;
 }
+
+#WhatsAPP{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #020535;
+    width: 8rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border: none;
+}
+
+#WhatsApp h2{
+    font-weight: 400;
+}
+
+#WhatsAPP:hover{
+    background-color: #030b86;
+}
+
+
+
+
+@media (max-width: 480px) {
+    .Contact-Hero-One {
+        height: 17rem;
+    }
+
+    .Contact-Hero-One-Container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 11rem;
+    }
+
+    .Link-Holder {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .H,
+    .A {
+        font-size: 16px;
+        margin-right: 0.5rem;
+    }
+
+    .Contact-Hero-Three-Container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .Con {
+        width: 100%;
+        padding: 0.5rem;
+        align-items: center;
+    }
+
+    #WhatsAPP {
+        width: 6rem;
+        height: 2rem;
+        padding: 0.5rem;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .Contact-Hero-One {
+        height: 15rem; /* Example adjustment */
+        padding: 1rem; /* Example adjustment */
+    }
+    
+    .Contact-Hero-One-Container {
+        padding-left: 2rem; /* Example adjustment */
+        padding-right: 2rem; /* Example adjustment */
+        padding-top: 5rem; /* Example adjustment */
+    }
+
+    .Text-Holder {
+        flex-direction: column; /* Example adjustment */
+        padding: 1rem; /* Example adjustment */
+    }
+
+    .ABOUT-LINK {
+        width: 80%; /* Example adjustment */
+    }
+
+    .Link-Holder {
+        padding-left: 1rem; /* Example adjustment */
+        padding-right: 1rem; /* Example adjustment */
+        flex-direction: column; /* Example adjustment */
+    }
+
+    .H,
+    .A {
+        font-size: 18px; /* Example adjustment */
+    }
+
+    .Contact-Hero-Three {
+        height: 40vh; /* Example adjustment */
+    }
+
+    .Contact-Hero-Three-Container {
+        flex-direction: column; /* Example adjustment */
+        padding: 2rem; /* Example adjustment */
+    }
+
+    .Con {
+        width: 100%; /* Example adjustment */
+        padding: 0.5rem; /* Example adjustment */
+    }
+
+    #WhatsAPP {
+        width: 6rem; /* Example adjustment */
+        height: 2rem; /* Example adjustment */
+    }
+
+    #WhatsApp h2 {
+        font-size: 16px; /* Example adjustment */
+    }
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .Contact-Hero-One {
+        /* Add or override styles here */
+        height: 25rem; /* example modification */
+    }
+    
+    .Contact-Hero-One-Container {
+        /* Add or override styles here */
+        padding-left: 5rem; /* example modification */
+        padding-right: 5rem; /* example modification */
+        padding-top: 9rem; /* example modification */
+    }
+    
+    .Text-Holder {
+        /* Add or override styles here */
+        padding: 1rem; /* example modification */
+    }
+    
+    .ABOUT-LINK {
+        /* Add or override styles here */
+        width: 60%; /* example modification */
+    }
+    
+    .Link-Holder {
+        /* Add or override styles here */
+        padding-left: 1rem; /* example modification */
+        padding-right: 1rem; /* example modification */
+    }
+    
+    .H,
+    .A {
+        /* Add or override styles here */
+        font-size: 18px; /* example modification */
+    }
+    
+    .Contact-Hero-Three-Container {
+        /* Add or override styles here */
+        padding: 3rem; /* example modification */
+        flex-direction: column; /* example modification for better responsiveness */
+        align-items: center; /* example modification for better responsiveness */
+    }
+    
+    .Con {
+        /* Add or override styles here */
+        width: 80%; /* example modification */
+    }
+    
+    #WhatsAPP {
+        /* Add or override styles here */
+        width: 10rem; /* example modification */
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .Contact-Hero-One {
+        /* Add any style adjustments you need here */
+        height: 25rem; /* Example adjustment */
+    }
+
+    .Contact-Hero-One-Container {
+        padding-left: 5rem; /* Example adjustment */
+        padding-right: 5rem; /* Example adjustment */
+        padding-top: 9rem; /* Example adjustment */
+    }
+
+    .Link-Holder {
+        padding-left: 1rem; /* Example adjustment */
+        padding-right: 1rem; /* Example adjustment */
+    }
+
+    .H,
+    .A {
+        font-size: 18px; /* Example adjustment */
+    }
+}
+
+
+
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .Contact-Hero-One {
+        height: 25rem; /* Example adjustment */
+        background-color: grey; /* Example adjustment */
+    }
+
+    .Contact-Hero-One-Container {
+        padding-left: 5rem; /* Example adjustment */
+        padding-right: 5rem; /* Example adjustment */
+        padding-top: 10rem; /* Example adjustment */
+    }
+
+    .Text-Holder {
+        flex-direction: column; /* Example adjustment */
+    }
+
+    .ABOUT-LINK {
+        width: 60%; /* Example adjustment */
+    }
+
+    .Link-Holder {
+        padding-left: 3rem; /* Example adjustment */
+        padding-right: 3rem; /* Example adjustment */
+    }
+
+    .H,
+    .A {
+        font-size: 18px; /* Example adjustment */
+    }
+
+    .Contact-Hero-Three {
+        height: 60vh; /* Example adjustment */
+    }
+
+    .Contact-Hero-Three-Container {
+        padding: 4rem; /* Example adjustment */
+    }
+
+    .Con {
+        width: 35%; /* Example adjustment */
+    }
+
+    #WhatsAPP {
+        width: 7rem; /* Example adjustment */
+        height: 2rem; /* Example adjustment */
+    }
+}
+
+
+
+
+
+
+/* Media query for min-width: 1441px and max-width: 1920px */
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .Contact-Hero-One{
+        /* Add your styles here */
+    }
+
+    .Home{
+        /* Add your styles here */
+    }
+
+    .Contact-Hero-One img{
+        /* Add your styles here */
+    }
+
+    .Contact-Hero-One-Container{
+        /* Add your styles here */
+    }
+
+    .Text-Holder{
+        /* Add your styles here */
+    }
+
+    .ABOUT-LINK{
+        /* Add your styles here */
+    }
+
+    .Text-Holder h1{
+        /* Add your styles here */
+    }
+
+    .Link-Holder{
+        /* Add your styles here */
+    }
+
+    .H,
+    A{
+        /* Add your styles here */
+    }
+
+    .A{
+        /* Add your styles here */
+    }
+
+    .A:hover{
+        /* Add your styles here */
+    }
+
+    .DASH{
+        /* Add your styles here */
+    }
+
+    .Link-Holder a{
+        /* Add your styles here */
+    }
+
+    .Contact-Hero-Three{
+        /* Add your styles here */
+    }
+
+    .Contact-Hero-Three-Container{
+        /* Add your styles here */
+    }
+
+    .Con{
+        /* Add your styles here */
+    }
+
+    .Con h2{
+        /* Add your styles here */
+    }
+
+    .Con h4{
+        /* Add your styles here */
+    }
+
+    #WhatsAPP{
+        /* Add your styles here */
+    }
+
+    #WhatsApp h2{
+        /* Add your styles here */
+    }
+
+    #WhatsAPP:hover{
+        /* Add your styles here */
+    }
+}
+
+
+
+
+
+@media (min-width: 1921px) {
+    .Contact-Hero-One {
+        /* Custom styles for screens wider than 1920px */
+        height: 25rem;
+        background-color: darkgray;
+    }
+
+    .Contact-Hero-One img {
+        opacity: 50%;
+    }
+
+    .Contact-Hero-One-Container {
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 15rem;
+    }
+
+    .Text-Holder h1 {
+        font-size: 2.5rem;
+    }
+
+    .Link-Holder {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .H, .A {
+        font-size: 22px;
+    }
+
+    .Contact-Hero-Three-Container {
+        padding: 6rem;
+    }
+
+    .Con {
+        width: 35%;
+    }
+
+    #WhatsAPP {
+        width: 10rem;
+        height: 3rem;
+    }
+
+    #WhatsApp h2 {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
