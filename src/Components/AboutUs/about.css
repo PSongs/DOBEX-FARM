@@ -517,11 +517,17 @@ A{
     }
   
     .About-Hero-Two {
-      height: 35rem;
+      height: 29rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
     }
   
     .About-Hero-Two-Text {
       padding: 4rem;
+    }
+
+    .About-Hero-Two-Text h1{
+        font-size: 45px;
     }
   
     .About-Hero-Two-Image {
