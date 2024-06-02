@@ -150,10 +150,7 @@ A{
     height: 2.5rem;
     padding: 0.5rem;
     border: none;
-}
-
-#WhatsApp h2{
-    font-weight: 400;
+    color: white;
 }
 
 #WhatsAPP:hover{

@@ -51,9 +51,7 @@ const ContactUs = () => {
             <br></br>
 
             <button id="WhatsAPP" onClick={handleWhatsAppChat}>
-              <h3>
                   Chat Us
-              </h3>
           </button>
           </div>
 
