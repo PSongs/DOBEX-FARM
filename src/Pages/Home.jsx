@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../Components/Nav/Nav";
 import Footer from "../Components/Footer/Footer";
 import "../Components/Home/home.css";
-import BImage from "../assets/FISH.jpg";
+import BImage from "../assets/BIG FISH .jpg";
 import { Link } from "react-router-dom";
 import CATFISH from "../assets/india-929719_640.jpg";
 import TILAPIAFISH from "../assets/tilapia fish.jpg";

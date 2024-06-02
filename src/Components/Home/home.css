@@ -375,6 +375,14 @@
         overflow: hidden;
     }
 
+    .Hero-Two h3{
+        font-size: 13px;
+    }
+
+    .Hero-Two h1{
+        font-size: 30px;
+    }
+
     .Hero-Two h3, .Hero-Two h1 {
         font-weight: 400;
         width: 100%;
@@ -444,6 +452,14 @@
         text-align: center;
     }
 
+    .Hero-Three-Text h1{
+        font-size: 30px;
+    }
+
+    .Hero-Three-Text h3{
+        font-size: 13px;
+    }
+
     .Hero-Three-Image {
         width: 100%;
         height: auto;
@@ -483,6 +499,8 @@
         width: 100%;
         height: auto;
         padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .Hero-Four-IMG h2 {
