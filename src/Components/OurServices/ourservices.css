@@ -187,3 +187,450 @@ A{
     color: #020535;
     font-weight: 400;
 }
+
+
+
+
+@media (max-width: 480px) {
+    .Our-Hero-One {
+        height: 17rem;
+    }
+
+    .Our-Hero-One-Container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 11rem;
+    }
+
+    .Text-Holder {
+        flex-direction: column;
+        padding: 0 1rem;
+        /* border: 1px solid yellow; */
+        height: auto !important;
+    }
+
+    .ABOUT-LINK {
+        width: 100%;
+        /* border: 1px solid yellow; */
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .ABOUT-LINK h1{
+        font-size: 30px;
+    }
+
+    .Link-Holder {
+        flex-direction: center !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        /* border: 1px solid yellow; */
+        align-content: center !important;
+        align-items: center !important;
+    }
+
+    .H,
+    .A {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    .Our-Hero-Two {
+        padding: 1rem;
+    }
+
+    .Our-Con {
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: auto;
+    }
+
+    .Our-Con-Text {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .Our-Con-Image {
+        width: 100%;
+        height: auto;
+    }
+
+    .First,
+    .Second {
+        flex-direction: column;
+        padding-right: 1rem;
+        height: auto;
+    }
+
+    .Icon-Box {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .First h2,
+    .Second h3 {
+        font-size: 24px;
+    }
+
+    .Icon-Box img {
+        scale: 100%;
+    }
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .Our-Hero-One {
+        height: 15rem; /* Adjust height for smaller screens */
+        background-color: gray; /* Example of changing background color */
+    }
+
+    .Our-Hero-One-Container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 6rem;
+    }
+
+    .Link-Holder {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .H, .A {
+        font-size: 16px;
+        margin-right: 0.5rem;
+    }
+
+    .Our-Hero-Two {
+        padding: 2rem;
+    }
+
+    .Our-Con {
+        flex-direction: column; /* Stack elements vertically */
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: auto;
+    }
+
+    .Our-Con-Text, .Our-Con-Image {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .First, .Second {
+        height: auto;
+        padding-right: 1rem;
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .Icon-Box {
+        width: 50%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .First h2, .Second h3 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .Our-Hero-One {
+        height: 18rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .Our-Hero-One-Container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 9rem;
+    }
+
+    .Text-Holder {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .ABOUT-LINK {
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .Link-Holder {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .H, .A {
+        font-size: 18px;
+        margin-right: 0.5rem;
+    }
+
+    .Our-Hero-Two {
+        padding: 2rem;
+    }
+
+    .Our-Con {
+        flex-direction: column;
+        height: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .Our-Con-Text {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .Our-Con-Image {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .First, .Second {
+        flex-direction: column;
+        height: auto;
+        padding-right: 1rem;
+    }
+
+    .Icon-Box {
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .Icon-Box img {
+        scale: 70%;
+    }
+
+    .First h2 {
+        font-size: 24px;
+    }
+
+    .Second h3 {
+        font-size: 20px;
+    }
+}
+
+
+
+/* Media query for min-width: 1025px and max-width: 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .Our-Hero-One {
+        height: 25rem; /* Example adjustment */
+    }
+    
+    .Our-Hero-One-Container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 9rem;
+    }
+
+    .Text-Holder {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .ABOUT-LINK {
+        width: 60%;
+    }
+
+    .Link-Holder {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+
+    .H, .A {
+        font-size: 18px;
+    }
+
+    .Our-Con {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .Our-Con-Text {
+        padding: 4rem;
+    }
+
+    .First h2 {
+        font-size: 28px;
+    }
+
+    .Second h3 {
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+/* Media Query for screen width 1281px to 1440px */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .Our-Hero-One {
+        height: 20rem;
+      }
+    
+      .Our-Hero-One-Container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 11rem;
+      }
+  
+      .Text-Holder {
+          flex-direction: column; /* Adjusted for better alignment on smaller screens */
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          align-items: center;
+      }
+    
+      .Link-Holder {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    
+    .First h2 {
+        font-size: 28px; /* Example modification */
+    }
+    
+    .Second h3 {
+        font-size: 18px; /* Example modification */
+    }
+    
+    .Icon-Box img {
+        scale: 75%; /* Example modification */
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .Our-Hero-One {
+        height: 25rem;
+    }
+
+    .Our-Hero-One-Container {
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 15rem;
+    }
+
+    .Link-Holder {
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
+    }
+
+    .H, .A {
+        font-size: 24px;
+    }
+
+    .Our-Hero-Two {
+        padding: 5rem;
+    }
+
+    .Our-Con {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .Our-Con-Text {
+        padding: 6rem;
+    }
+
+    .First, .Second {
+        padding-right: 4rem;
+    }
+
+    .Icon-Box img {
+        scale: 90%;
+    }
+
+    .First h2 {
+        font-size: 35px;
+    }
+
+    .Second h3 {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1921px) {
+    .Our-Hero-One {
+        height: 25rem; /* Example adjustment */
+        padding: 1rem; /* Example adjustment */
+    }
+
+    .Our-Hero-One img {
+        opacity: 50%; /* Example adjustment */
+    }
+
+    .Our-Hero-One-Container {
+        padding-left: 10rem; /* Example adjustment */
+        padding-right: 10rem; /* Example adjustment */
+        padding-top: 13rem; /* Example adjustment */
+    }
+
+    .Text-Holder {
+        padding: 2rem; /* Example adjustment */
+    }
+
+    .ABOUT-LINK {
+        width: 60%; /* Example adjustment */
+    }
+
+    .Text-Holder h1 {
+        font-size: 2.5rem; /* Example adjustment */
+    }
+
+    .Link-Holder {
+        padding-left: 6rem !important; /* Example adjustment */
+        padding-right: 6rem !important; /* Example adjustment */
+    }
+
+    .H,
+    A {
+        font-size: 22px; /* Example adjustment */
+    }
+
+    .Our-Hero-Two {
+        padding: 5rem; /* Example adjustment */
+    }
+
+    .Our-Con {
+        padding-left: 7rem; /* Example adjustment */
+        padding-right: 7rem; /* Example adjustment */
+    }
+
+    .Our-Con-Text {
+        padding: 6rem; /* Example adjustment */
+    }
+
+    .First h2,
+    .Second h3 {
+        font-size: 32px; /* Example adjustment */
+    }
+
+    .Icon-Box img {
+        scale: 90%; /* Example adjustment */
+    }
+}
+

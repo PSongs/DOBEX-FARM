@@ -145,7 +145,7 @@ A{
 #WhatsAPP{
     /* border: 1px solid black; */
     border-radius: 10px;
-    background-color: #020535;
+    background-color: #0515ec;
     width: 8rem;
     height: 2.5rem;
     padding: 0.5rem;
@@ -154,7 +154,7 @@ A{
 }
 
 #WhatsAPP:hover{
-    background-color: #030b86;
+    background-color: #02074d;
 }
 
 
@@ -357,28 +357,26 @@ A{
 
 @media (min-width: 1281px) and (max-width: 1440px) {
     .Contact-Hero-One {
-        height: 25rem; /* Example adjustment */
-        background-color: grey; /* Example adjustment */
-    }
-
-    .Contact-Hero-One-Container {
-        padding-left: 5rem; /* Example adjustment */
-        padding-right: 5rem; /* Example adjustment */
-        padding-top: 10rem; /* Example adjustment */
-    }
-
-    .Text-Holder {
-        flex-direction: column; /* Example adjustment */
-    }
-
-    .ABOUT-LINK {
-        width: 60%; /* Example adjustment */
-    }
-
-    .Link-Holder {
-        padding-left: 3rem; /* Example adjustment */
-        padding-right: 3rem; /* Example adjustment */
-    }
+        height: 20rem;
+      }
+    
+      .Contact-Hero-One-Container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 11rem;
+      }
+  
+      .Text-Holder {
+          flex-direction: column; /* Adjusted for better alignment on smaller screens */
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          align-items: center;
+      }
+    
+      .Link-Holder {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
 
     .H,
     .A {
