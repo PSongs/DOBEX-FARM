@@ -1197,8 +1197,8 @@
 
     .Hero-Four-IMG {
         width: 100%;
-        height: 100%;
-        background-image: url(/src/assets/BLUE\ SHADOW.jpg);
+        height: auto;
+        background-image: url(/src/assets/salmon-fingerlingsseen-below-seattle-aquarium-260nw-215820475.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: none;

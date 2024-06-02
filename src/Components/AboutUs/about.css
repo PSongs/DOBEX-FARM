@@ -530,7 +530,7 @@ A{
     }
   
     .About-Hero-Three {
-      height: 50rem;
+      height: auto;
     }
   
     .About-Hero-Three-Content {
@@ -543,6 +543,7 @@ A{
   
     .Main-Content {
       padding: 1rem;
+      height: auto !important;
     }
   }
   
