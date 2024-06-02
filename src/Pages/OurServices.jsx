@@ -19,24 +19,23 @@ const OurServices = () => {
         <img src={BlueImage} alt=""></img>
         <div className="Our-Hero-One-Container">
           <div className="Text-Holder">
-          <div className="ABOUT-LINK">
-              <h1>OUR SERVICE <br></br>
-
-              <div className="Link-Holder">
-                <Link className="H" to="/">
-                  Home
-                </Link>
-                <div className="DASH"></div>
-                <Link className="A">Service</Link>
-              </div>
-              </h1> 
+            <div className="ABOUT-LINK">
+              <h1>
+                OUR SERVICE <br></br>
+                <div className="Link-Holder">
+                  <Link className="H" to="/">
+                    Home
+                  </Link>
+                  <div className="DASH"></div>
+                  <Link className="A">Service</Link>
+                </div>
+              </h1>
             </div>
           </div>
         </div>
       </div>
 
       <div className="Our-Hero-Two">
-
         <div className="Our-Con">
           <div className="Our-Con-Image">
             <img src={CATFISH} alt=""></img>
@@ -58,8 +57,11 @@ const OurServices = () => {
           </div>
         </div>
 
-
         <div className="Our-Con">
+          <div className="Our-Con-Image">
+            <img src={TILAPIAFISH} alt=""></img>
+          </div>
+
           <div className="Our-Con-Text">
             <div className="First">
               <div className="Icon-Box">
@@ -74,12 +76,7 @@ const OurServices = () => {
               </h3>
             </div>
           </div>
-
-          <div className="Our-Con-Image">
-            <img src={TILAPIAFISH} alt=""></img>
-          </div>
         </div>
-
 
         <div className="Our-Con">
           <div className="Our-Con-Image">
@@ -96,16 +93,17 @@ const OurServices = () => {
 
             <div className="Second">
               <h3>
-              We produce fish feed at lower prices by replacing fish meal with maggot meal in the production process.
+                We produce fish feed at lower prices by replacing fish meal with
+                maggot meal in the production process.
               </h3>
             </div>
           </div>
         </div>
 
-
-
-
         <div className="Our-Con">
+          <div className="Our-Con-Image">
+            <img src={PRAWN} alt=""></img>
+          </div>
           <div className="Our-Con-Text">
             <div className="First">
               <div className="Icon-Box">
@@ -115,18 +113,10 @@ const OurServices = () => {
             </div>
 
             <div className="Second">
-              <h3>
-                At Dobek Farms, we rear baby prawns to table size prawns.
-              </h3>
+              <h3>At Dobek Farms, we rear baby prawns to table size prawns.</h3>
             </div>
           </div>
-
-          <div className="Our-Con-Image">
-            <img src={PRAWN} alt=""></img>
-          </div>
         </div>
-
-
       </div>
 
       <Footer />
