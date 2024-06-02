@@ -192,8 +192,8 @@ A{
     height: 100%;
     padding: 4rem;
     display: flex;
-    justify-content: right;
-    align-content: right;
+    justify-content: center;
+    align-content: center;
 }
 
 .Content-Box{
