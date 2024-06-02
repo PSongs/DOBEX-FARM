@@ -106,18 +106,20 @@ A{
 
 .About-Hero-Two {
     width: 100vw;
-    height: 30rem;
+    height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: center;
     background-color: white;
 }
 
 .About-Hero-Two-Text {
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 6rem;
+    padding: 7rem;
+    text-align: center;
+    border: 1px solid black;
 }
 
 .AboutB button{
@@ -517,17 +519,24 @@ A{
     }
   
     .About-Hero-Two {
-      height: 29rem;
+      height: auto;
       padding-left: 4rem;
       padding-right: 4rem;
     }
   
     .About-Hero-Two-Text {
-      padding: 4rem;
+      padding: 2rem;
+      padding-left: 15rem;
+      padding-right: 15rem;
     }
 
     .About-Hero-Two-Text h1{
-        font-size: 45px;
+        font-size: 30px;
+    }
+
+    .About-Hero-Two-Text h3{
+        font-size: 25px;
+        line-height: 30px;
     }
   
     .About-Hero-Two-Image {

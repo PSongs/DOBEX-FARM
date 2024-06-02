@@ -37,14 +37,7 @@ const AboutUs = () => {
         <div className="About-Hero-Two-Text">
           <h1>Who Are We</h1>
           <br className="BR"></br>
-          <br className="BR"></br>
 
-          <Link className="AboutB" to="/contact">
-            <button>CONTACT US</button>
-          </Link>
-        </div>
-
-        <div className="About-Hero-Two-Image">
           <h3>
             Dobek Farms Ltd is a fish farm that produces catfish at a lower
             price in the market place. It produces fish at a lower price by
@@ -58,7 +51,29 @@ const AboutUs = () => {
             catfish and tilapia to other countries when it has produced enough
             catfish to satisfy the Nigerian market.
           </h3>
+          <br></br>
+          <br></br>
+
+          <Link className="AboutB" to="/contact">
+            <button>CONTACT US</button>
+          </Link>
         </div>
+
+        {/* <div className="About-Hero-Two-Image">
+          <h3>
+            Dobek Farms Ltd is a fish farm that produces catfish at a lower
+            price in the market place. It produces fish at a lower price by
+            replacing fish meal with maggot meal in production of feed. The
+            primary purpose of Dobek Farms Ltd is to produce catfish at first,
+            tilapia and prawns later at a low price so it is affordable to low income
+            earners in Nigeria. It targets production of up to two hundred tons
+            of fish per year for the first five years and to increase this
+            quantity continuously until it is the dominant fish producer of
+            catfish and tilapia in the Nigerian market. It aims to export
+            catfish and tilapia to other countries when it has produced enough
+            catfish to satisfy the Nigerian market.
+          </h3>
+        </div> */}
       </div>
 
       <div className="About-Hero-Three">
