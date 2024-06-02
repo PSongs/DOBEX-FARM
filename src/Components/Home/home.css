@@ -6,7 +6,7 @@
     background-color: black;
     display: flex;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: none;
     position: relative;
     z-index: -2000;
@@ -485,7 +485,7 @@
     .Hero-Four-IMG {
         width: 100%;
         height: auto;
-        background-image: url(/src/assets/BLUE\ SHADOW.jpg);
+        background-image: url(/src/assets/salmon-fingerlingsseen-below-seattle-aquarium-260nw-215820475.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: none;
@@ -507,6 +507,7 @@
         font-size: 30px;
         text-align: center;
         line-height: 35px;
+        color: white;
     }
 
     .Know_More {
@@ -606,6 +607,34 @@
     .Hero-Four {
         padding-top: 2rem;
         padding-bottom: 2rem;
+    }
+
+    .Hero-Four-IMG {
+        width: 100%;
+        height: auto;
+        background-image: url(/src/assets/salmon-fingerlingsseen-below-seattle-aquarium-260nw-215820475.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .From-Fish {
+        width: 100%;
+        height: auto;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .Hero-Four-IMG h2 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 35px;
+        color: white;
     }
 
     .Know_More {
