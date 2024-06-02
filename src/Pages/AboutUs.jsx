@@ -36,8 +36,8 @@ const AboutUs = () => {
       <div className="About-Hero-Two">
         <div className="About-Hero-Two-Text">
           <h1>Who Are We</h1>
-          <br></br>
-          <br></br>
+          <br className="BR"></br>
+          <br className="BR"></br>
 
           <Link className="AboutB" to="/contact">
             <button>CONTACT US</button>

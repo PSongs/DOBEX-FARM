@@ -56,6 +56,10 @@
     align-items: center;
 }
 
+.ABOUT-LINK h1{
+    color: white;
+}
+
 .Text-Holder h1{
     font-weight: 600;
 }
@@ -128,6 +132,7 @@ A{
 .About-Hero-Two-Text h1 {
     color: #020535;
     font-weight: 600;
+    font-size: 30px;
 }
 
 .About-Hero-Two-Text h3 {
@@ -225,244 +230,124 @@ A{
 
 
 
-/* MEDIA QUERY FOR MAX-WIDTH 480PX /////////////////////////////////////////////////////////////////////////// */
+
+
 @media (max-width: 480px) {
-    .About-Hero-One{
-        /* border: 1px solid black; */
-        width: 100%;
-        height: 20rem;
-        background-color: black;
-        display: flex;
-        position: relative;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        z-index: -2000;
-        overflow: hidden;
+    .About-Hero-One {
+        height: 17rem; /* Reduced height for smaller screens */
+        width: 100% !important;
     }
-    
-    .Home{
-        position: relative;
-        z-index: 100;
-    }
-    
-    .About-Hero-One img{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        z-index: -1000;
-        opacity: 45%;
-    }
-    
-    .About-Hero-One-Container{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 7rem;
-        padding-right: 7rem;
+
+    .About-Hero-One-Container {
+        padding-left: 1rem; /* Reduced padding for smaller screens */
+        padding-right: 1rem;
         padding-top: 11rem;
     }
-    
-    .Text-Holder{
-        /* border: 1px solid black; */
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: center;
-        align-content: center;
-    }
-    
-    .ABOUT-LINK{
-        /* border: 1px solid white; */
-        width: 50%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
+
+    .Text-Holder {
+        flex-direction: column; /* Adjusted for better alignment on smaller screens */
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
         align-items: center;
+    }
+
+    .ABOUT-LINK {
+        width: 100%; /* Full width on smaller screens */
     }
 
     .ABOUT-LINK h1{
-        font-size: 40px;
+        font-size: 30px;
     }
-    
-    .Text-Holder h1{
-        font-weight: 600;
-    }
-    
-    .Link-Holder{
-        /* border: 1px solid rgb(240, 5, 5); */
-        width: 100%;
-        height: 2rem;
-        justify-content: space-between;
 
+    .H, .A {
+        font-size: 16px; /* Reduced font size for better readability */
     }
-    
-    .H,
-    A{
-        color: white;
+
+    .Link-Holder {
+        flex-direction: column; /* Stacked links for smaller screens */
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
-    
-    .A{
-        text-decoration: underline;
-        color: white;
+
+    .DASH {
+        height: 2rem; /* Reduced height for the dash */
+        margin: 0.5rem 0; /* Adjusted margin */
     }
-    
-    .A:hover{
-        color: white;
-    }
-    
-    .DASH{
-        border: 1px solid white;
-        height: 100%;
-    }
-    
-    .Link-Holder a{
-        text-align: center;
-    }
-    
-    
+
     .About-Hero-Two {
-        width: 100%;
-        height: 28rem !important;
-        display: flex;
-        flex-direction: row;
-        background-color: white;
-    }
-    
-    .About-Hero-Two-Text {
-        width: 43%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        padding: 4rem;
-    }
-
-    .About-Hero-Two-Text h1{
-        font-size: 20px;
-    }
-    
-    .AboutB button{
-        width: 9rem;
-        height: 3rem;
-        background-color: #020535;
-        border: none;
-        color: white;
-        font-size: 13px;
-    }
-    
-    .About-Hero-Two-Text h1 {
-        color: #020535;
-        font-weight: 600;
-    }
-    
-    .About-Hero-Two-Text h3 {
-        color: #020535;
-        font-weight: 400;
-        margin-top: 2rem;
-    }
-    
-    .About-Hero-Two-Image {
-        width: 57%;
+        flex-direction: column; /* Stacked layout for smaller screens */
         height: auto;
-        /* border: 1px solid black; */
-        padding-right: 4rem !important;
-        padding-top: 4rem !important;
+        width: 100% !important;
+    }
 
+    .About-Hero-Two-Text,
+    .About-Hero-Two-Image {
+        width: 100%; /* Full width for both sections */
+        padding: 1rem;
+        align-items: center;
     }
-    
-    .About-Hero-Two-Image h3{
-        color: #020535;
-        font-weight: 400;
-        font-size: 13px;
+
+    .BR{
+        display: none;
     }
-    
-    .About-Hero-Two-Image img {
-        width: 100%;
-        height: 100%;
-    }
-    
-    
-    
-    .About-Hero-Three{
-        border: 1px solid black;
-        width: 100%;
-        height: 45rem;
-        background-color: black;
-        display: flex;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: relative;
-        z-index: -2000;
-        overflow: hidden;
-    }
-    
-    .About-Hero-Three img{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        z-index: -1000;
-        opacity: 45%;
-    }
-    
-    .About-Hero-Three-Content{
-        /* border: 1px solid white; */
-        width: 100%;
-        height: 100%;
-        padding: 4rem;
-        display: flex;
-        justify-content: center !important;
-        align-content: center !important;
-    }
-    
-    .Content-Box{
-        /* border: 1px solid red; */
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        padding: 4rem;
-    }
-    
-    .Main-Content{
-        width: 100%;
-        height: 100%;
+
+    .About-Hero-Two-Text {
+        padding: 2rem; /* Adjusted padding */
+        height: auto !important;
         /* border: 1px solid black; */
-        padding: 1.5rem;
-        display: flex;
-        flex-direction: column;
     }
-    
+
+    .AboutB{
+        display: none;
+    }
+
+    .About-Hero-Two-Image {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        height: auto !important;
+        padding-bottom: 3rem;
+    }
+
+    .About-Hero-Two-Image h3{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .About-Hero-Three {
+        height: auto !important; /* Reduced height */
+        width: 100% !important;
+    }
+
+    .About-Hero-Three-Content {
+        flex-direction: center; /* Stacked layout */
+        padding: 2rem; /* Adjusted padding */
+    }
+
+    .Content-Box {
+        width: 100%; /* Full width */
+        padding: 2rem 1rem; /* Adjusted padding */
+    }
+
     .Main-Content h1{
-        color: #020535;
-        text-align: center;
+        font-size: 30px;
     }
-    
-    .Main-Content h3{
-        color: #020535;
-        text-align: center;
-        font-weight: 400;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-    }
-    
 }
 
 
 
-/* MEDIA QUERY FOR MIN-WIDTH 481PX AND MAX-WIDTH 767PX///////////////////////////////////////////////////////////// */
+
+
+
 @media (min-width: 481px) and (max-width: 767px) {
     .About-Hero-One {
         height: 15rem;
+        padding: 2rem;
     }
 
     .About-Hero-One-Container {
         padding-left: 3rem;
         padding-right: 3rem;
-        padding-top: 7rem;
+        padding-top: 5rem;
     }
 
     .Text-Holder {
@@ -470,12 +355,17 @@ A{
     }
 
     .ABOUT-LINK {
-        width: 80%;
+        width: 75%;
+    }
+
+    .H, .A {
+        font-size: 18px;
     }
 
     .Link-Holder {
-        padding-left: 5rem;
-        padding-right: 5rem;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .About-Hero-Two {
@@ -485,7 +375,7 @@ A{
 
     .About-Hero-Two-Text, .About-Hero-Two-Image {
         width: 100%;
-        padding: 3rem;
+        padding: 2rem;
     }
 
     .About-Hero-Two-Image {
@@ -498,67 +388,11 @@ A{
     }
 
     .About-Hero-Three-Content {
-        justify-content: center;
-        align-content: center;
-    }
-
-    .Content-Box {
-        width: 90%;
-    }
-
-    .Main-Content h1, .Main-Content h3 {
-        font-size: 1.2rem;
-    }
-}
-
-
-
-
-/* MEDIA QUERY FOR MIN-WIDTH 768PX AND MAX-WIDTH 1024PX/////////////////////////////////////////////////////////// */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .About-Hero-One {
-        width: 100vw;
-        height: 25rem;
-    }
-
-    .About-Hero-One-Container {
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-top: 9rem;
-    }
-
-    .Link-Holder {
-        padding-left: 8rem;
-        padding-right: 8rem;
-    }
-
-    .About-Hero-Two {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .About-Hero-Two-Text {
-        width: 100%;
-        padding: 4rem;
-    }
-
-    .About-Hero-Two-Image {
-        width: 100%;
-        padding-top: 4rem;
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-
-    .About-Hero-Three {
-        height: 35rem;
-    }
-
-    .About-Hero-Three-Content {
         padding: 2rem;
     }
 
     .Content-Box {
-        width: 80%;
+        width: 75%;
         padding: 2rem;
     }
 
@@ -569,76 +403,181 @@ A{
 
 
 
-/* MEDIA QUERY FOR MIN-WIDTH 1025PX AND MAX-WIDTH 1280PX ////////////////////////////////////////////////////// */
-@media (min-width: 1025px) and (max-width: 1280px) {
+
+/* Media query for screens with a minimum width of 768px and a maximum width of 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
     .About-Hero-One {
-        height: 18rem; /* Slightly reduce height */
-        padding-left: 1rem; /* Add padding for spacing */
-        padding-right: 1rem;
-        width: 100vw;
-        padding-top: 11rem;
+        height: 25rem;
     }
 
     .About-Hero-One-Container {
-        padding-left: 5rem; /* Reduce padding */
+        padding-left: 5rem;
         padding-right: 5rem;
-        padding-top: 9rem; /* Adjust top padding */
-    }
-
-    .Text-Holder {
-        width: 90%; /* Adjust width */
-    }
-
-    .ABOUT-LINK {
-        width: 60%; /* Adjust width */
+        padding-top: 9rem;
     }
 
     .Link-Holder {
-        padding-left: 8rem; /* Reduce padding */
-        padding-right: 8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .About-Hero-Two {
-        height: 28rem; /* Adjust height */
+        height: 35rem;
+        flex-direction: column;
     }
 
-    .About-Hero-Two-Text {
-        padding: 4rem; /* Adjust padding */
+    .About-Hero-Two-Text,
+    .About-Hero-Two-Image {
+        width: 100%;
+        padding: 3rem;
     }
 
     .About-Hero-Two-Image {
-        padding-top: 4rem; /* Adjust padding */
-        padding-right: 8rem;
+        padding-top: 3rem;
+        padding-right: 3rem;
     }
 
     .About-Hero-Three {
-        height: 40rem; /* Adjust height */
+        height: 50rem;
     }
 
     .About-Hero-Three-Content {
-        padding: 3rem; /* Adjust padding */
+        padding: 2rem;
     }
 
     .Content-Box {
-        width: 60%; /* Adjust width */
-        padding: 3rem; /* Adjust padding */
-    }
-
-    .Main-Content {
-        padding: 1rem; /* Adjust padding */
+        width: 70%;
+        padding: 3rem;
     }
 
     .Main-Content h1 {
-        font-size: 2rem; /* Adjust font size */
+        font-size: 1.5rem;
     }
 
     .Main-Content h3 {
-        font-size: 1.5rem; /* Adjust font size */
+        font-size: 1.2rem;
     }
 }
 
 
 
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .About-Hero-One-Container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .About-Hero-Two-Text {
+        padding: 4rem;
+    }
+
+    .About-Hero-Two-Image {
+        padding-top: 4rem;
+        padding-right: 8rem;
+    }
+
+    .About-Hero-Three-Content {
+        padding: 2rem;
+    }
+
+    .Content-Box {
+        padding: 2rem;
+    }
+
+    .Main-Content {
+        padding: 1rem;
+    }
+}
 
 
+
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .About-Hero-One {
+      height: 25rem;
+    }
+  
+    .About-Hero-One-Container {
+      padding-left: 5rem;
+      padding-right: 5rem;
+      padding-top: 8rem;
+    }
+  
+    .Link-Holder {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    .About-Hero-Two {
+      height: 35rem;
+    }
+  
+    .About-Hero-Two-Text {
+      padding: 4rem;
+    }
+  
+    .About-Hero-Two-Image {
+      padding-top: 4rem;
+      padding-right: 8rem;
+    }
+  
+    .About-Hero-Three {
+      height: 50rem;
+    }
+  
+    .About-Hero-Three-Content {
+      padding: 3rem;
+    }
+  
+    .Content-Box {
+      padding: 3rem;
+    }
+  
+    .Main-Content {
+      padding: 1rem;
+    }
+  }
+  
+
+
+
+  @media (min-width: 1441px) and (max-width: 1920px) {
+    .About-Hero-One {
+        height: 25rem;
+    }
+    .About-Hero-One-Container {
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 15rem;
+    }
+    .Text-Holder {
+        padding-top: 5rem;
+    }
+    .Link-Holder {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .About-Hero-Two {
+        height: 35rem;
+    }
+    .About-Hero-Two-Text {
+        padding: 8rem;
+    }
+    .About-Hero-Two-Image {
+        padding-top: 8rem;
+        padding-right: 15rem;
+    }
+    .About-Hero-Three {
+        height: 50rem;
+    }
+    .About-Hero-Three-Content {
+        padding: 6rem;
+    }
+    .Content-Box {
+        padding: 6rem;
+    }
+    .Main-Content {
+        padding: 2rem;
+    }
+}

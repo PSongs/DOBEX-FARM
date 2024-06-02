@@ -55,6 +55,10 @@
     flex-direction: column;
 }
 
+.ABOUT-LINK h1{
+    color: white;
+}
+
 .Text-Holder h1{
     font-weight: 600;
 }
