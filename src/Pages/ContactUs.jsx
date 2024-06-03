@@ -4,6 +4,7 @@ import Footer from "../Components/Footer/Footer";
 import { Link } from "react-router-dom";
 import "../Components/ContactUs/contactus.css";
 import BlueImage from "../assets/BLUE IMAGE WATER.jpeg";
+import Tracker from "../Components/Tracker/Tracker";
 
 
 
@@ -63,6 +64,8 @@ const ContactUs = () => {
       </div>
 
       <Footer />
+
+      <Tracker />
     </div>
   );
 };

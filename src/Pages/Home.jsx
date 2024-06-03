@@ -9,6 +9,7 @@ import TILAPIAFISH from "../assets/tilapia fish.jpg";
 import FISHFEED from "../assets/fish feed.jpg";
 import FEEDING from "../assets/india-929719_640.jpg";
 import PRAWNS from "../assets/prawns.jpeg";
+import Tracker from "../Components/Tracker/Tracker";
 
 const Home = () => {
   return (
@@ -43,7 +44,7 @@ const Home = () => {
         <br></br>
         <br></br>
 
-        <h1>OUR SERVICES</h1>
+        <h1>OUR PRODUCTS</h1>
 
         <div className="Service-Content">
           <div className="BOX">
@@ -123,6 +124,8 @@ const Home = () => {
       </div>
 
       <Footer />
+
+      <Tracker />
     </div>
   );
 };

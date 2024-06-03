@@ -5,6 +5,7 @@ import AboutUs from "./Pages/AboutUs";
 import OurServices from "./Pages/OurServices";
 import ContactUs from "./Pages/ContactUs";
 import WebMail from "./Pages/WebMail";
+import ScrollToTop from './Components/ScrollToTop';
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
        <BrowserRouter>
+       <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element= {<AboutUs />} />

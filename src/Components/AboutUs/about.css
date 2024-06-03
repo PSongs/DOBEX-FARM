@@ -119,7 +119,7 @@ A{
     flex-direction: column;
     padding: 7rem;
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .AboutB button{
@@ -167,7 +167,7 @@ A{
 
 
 .About-Hero-Three{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 45rem;
     background-color: black;

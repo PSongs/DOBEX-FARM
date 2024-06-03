@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import BlueImage from "../assets/BLUE IMAGE WATER.jpeg";
 import GREENWATER from "../assets/HEROONE IMAGE.jpg";
 import Footer from "../Components/Footer/Footer";
+import Tracker from "../Components/Tracker/Tracker";
 
 const AboutUs = () => {
   return (
@@ -99,6 +100,8 @@ const AboutUs = () => {
       </div>
 
       <Footer />
+
+      <Tracker />
     </div>
   );
 };

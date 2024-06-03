@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../Components/Nav/Nav";
 import Footer from "../Components/Footer/Footer";
+import Tracker from "../Components/Tracker/Tracker";
 import BlueImage from "../assets/BLUE IMAGE WATER.jpeg";
 import { Link } from "react-router-dom";
 import "../Components/OurServices/ourservices.css";
@@ -21,13 +22,13 @@ const OurServices = () => {
           <div className="Text-Holder">
             <div className="ABOUT-LINK">
               <h1>
-                OUR SERVICE <br></br>
+                OUR PRODUCTS <br></br>
                 <div className="Link-Holder">
                   <Link className="H" to="/">
                     Home
                   </Link>
                   <div className="DASH"></div>
-                  <Link className="A">Service</Link>
+                  <Link className="A">Product</Link>
                 </div>
               </h1>
             </div>
@@ -120,6 +121,8 @@ const OurServices = () => {
       </div>
 
       <Footer />
+
+      <Tracker />
     </div>
   );
 };

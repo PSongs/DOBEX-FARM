@@ -31,7 +31,7 @@ const Nav = () => {
           </li>
           <li>
             <Link className="Nav-hover" to="/services" onClick={closeMenu}>
-              Our Services
+              Our Products
             </Link>
           </li>
           <li>
@@ -40,9 +40,9 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link className="Nav-hover" to="/web" onClick={closeMenu}>
-              Web MAil
-            </Link>
+            <a className="Nav-hover" href="https://dobekfarms.com.ng:2096/" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>
+              Web Mail
+            </a>
           </li>
         </ul>
       </nav>
