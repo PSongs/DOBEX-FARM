@@ -6,11 +6,12 @@
     background-color: black;
     display: flex;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    object-fit: cover;
     background-repeat: none;
     position: relative;
     z-index: -2000;
-    overflow: hidden;
+    overflow: none;
 }
 
 .Home{
@@ -24,6 +25,7 @@
     height: 100%;
     z-index: -1000;
     opacity: 45%;
+    object-fit: cover;
 }
 
 .Hero-One-Container{
@@ -242,6 +244,10 @@
     width: 100%;
     height: auto;
     padding-top: 5rem;
+}
+
+.From-Fish h2{
+    color: white;
 }
 
 .Hero-Four-IMG h2{

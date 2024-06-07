@@ -1,9 +1,9 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 import "./nav.css";
 import nav from "/src/assets/LOGO.png";
 import { Divide as Hamburger } from "hamburger-react";
-import { useState } from 'react';
+import { useState } from "react";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +13,7 @@ const Nav = () => {
 
   return (
     <div>
-         <nav className="Nav">
+      <nav className="Nav">
         <img className="NavLogo" src={nav} alt="" />
         <div className="menu-icon">
           <Hamburger size={22} rounded toggled={isOpen} toggle={setIsOpen} />
@@ -40,14 +40,20 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <a className="Nav-hover" href="https://dobekfarms.com.ng:2096/" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>
+            <a
+              className="Nav-hover"
+              href="https://privateemail.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMenu}
+            >
               Web Mail
             </a>
           </li>
         </ul>
       </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
