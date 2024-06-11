@@ -42,7 +42,7 @@ const Nav = () => {
           <li>
             <a
               className="Nav-hover"
-              href="https://privateemail.com/"
+              href="https://accounts.google.com/v3/signin/challenge/pwd?TL=AC3PFD5YXO6cinWG-WZ8p2CkK0nYcS4Rey73GCauzrw2VW8GsuuIi13lYFB49Cz1&checkConnection=youtube:604&checkedDomains=youtube&cid=1&continue=https://mail.google.com/mail/u/0/&ddm=0&emr=1&flowName=GlifWebSignIn&followup=https://mail.google.com/mail/u/0/&hl=en_US&ifkv=AS5LTAQr9DTPxknXEYoFAyu4hHmBtVukFT555PN7mgeC_tXyeKNykiBqDhooaNnusVOUC_31n74t&osid=1&pstMsg=1&service=mail"
               target="_blank"
               rel="noopener noreferrer"
               onClick={closeMenu}
