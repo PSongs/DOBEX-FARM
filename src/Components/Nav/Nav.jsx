@@ -39,7 +39,7 @@ const Nav = () => {
               Contact Us
             </Link>
           </li>
-          <li>
+          {/* <li>
             <a
               className="Nav-hover"
               href="https://accounts.google.com/v3/signin/challenge/pwd?TL=AC3PFD7loYFznvRb1t045zxYUv2CCYKXsAYxCXBFC4QnolnlZhIDrZ0NtYWPNS5B&checkConnection=youtube:604&checkedDomains=youtube&cid=1&continue=https://mail.google.com/mail/u/0/&ddm=0&emr=1&flowName=GlifWebSignIn&followup=https://mail.google.com/mail/u/0/&hl=en_US&ifkv=AS5LTAQszIZYZLBVwfcDJY8YrPP-dPkHuPuBFrdI8TsNUWIRkZjBuigs3RIOwMZKSytF8gpQQ3kR&osid=1&pstMsg=1&service=mail"
@@ -49,7 +49,7 @@ const Nav = () => {
             >
               Web Mail
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
